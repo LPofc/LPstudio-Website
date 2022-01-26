@@ -1,0 +1,18 @@
+.header{
+
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+}
+li{
+
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+  	padding: 1rem;
+}
+.LogoLP{
+
+	max-width: 5rem;
+}
