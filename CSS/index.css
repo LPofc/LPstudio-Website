@@ -6,7 +6,7 @@ body{
 h1{
 	
 	font-family: 'Viga', sans-serif;
-	font-size: 8rem;
+	font-size: 9rem;
 	font-weight: 900;
 	color: #F2E205;
 
@@ -17,9 +17,11 @@ h3{
 	font-size: 2rem;
 	color: #FAFAFF;
 }
-h2, p{
+p{
 
 	font-family: 'IBM Plex Sans Condensed', sans-serif;
+	font-size: 32px;
+	font-weight: 500;
 	color: #080708;
 }
 main{
@@ -28,10 +30,55 @@ main{
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	padding: 120px;
+	padding: 200px;
 	background-image: url("../ASSETS/aeroporto.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	
+}
+.Sobre{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 70px;
+	background: #F2E205;
+}
+.Sobre h2{
+
+	font-family: 'Viga', sans-serif;
+	font-size: 4rem;
+	color: #FAFAFF;
+	margin: 4px;
+}
+.Fotos{
+
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	justify-content: center;
+	width: 100%;
+	margin: 5px;
+  	
+  	
+}
+.Fotos h2{
+
+	margin-bottom: 36px;
+	font-family: 'Viga', sans-serif;
+	font-size: 4rem;
+	color: #F2E205;
+	margin: 4px;
+}
+.Fotos img{
+
+	width: 100%;
+}
+footer{
+
+	text-align: center;
+	padding: 10px;
 }
