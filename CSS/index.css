@@ -22,7 +22,7 @@ p{
 	font-family: 'IBM Plex Sans Condensed', sans-serif;
 	font-size: 32px;
 	font-weight: 500;
-	color: #080708;
+	color: #FAFAFF;
 }
 main{
 
@@ -44,28 +44,25 @@ main{
 	align-items: center;
 	text-align: center;
 	padding: 70px;
-	background: #F2E205;
+	background: #121317;
 }
 .Sobre h2{
 
 	font-family: 'Viga', sans-serif;
 	font-size: 4rem;
-	color: #FAFAFF;
+	color: #F2E205;
 	margin: 4px;
 }
-.Fotos{
+.gallery{
 
-	display: inline-flex;
-	flex-direction: column;
-	align-items: center;
-	padding-top: 20px;
-	justify-content: center;
-	width: 100%;
-	margin: 5px;
+	width: calc(100% - 100px);
+	padding-bottom: 20px;
+	text-align: center;
+	padding: 0 50px;
   	
   	
 }
-.Fotos h2{
+.gallery h2{
 
 	margin-bottom: 36px;
 	font-family: 'Viga', sans-serif;
@@ -73,12 +70,43 @@ main{
 	color: #F2E205;
 	margin: 4px;
 }
-.Fotos img{
+.images {
 
-	width: 100%;
+	width: 34%;
+	height: 400px;
+	padding: 30px;
+	transition: 0.7s all ease-in-out;
+}
+.images:hover{
+
+	transform: scale(1.2);
 }
 footer{
 
 	text-align: center;
 	padding: 10px;
+}
+@media only screen and (min-width: 951px) and (max-width: 1350px){
+	.images{
+
+		height: 300px;
+		padding: 20px;
+	}
+
+}
+@media screen and (max-width : 950px){
+
+	.gallery{
+    width: 100%;
+    padding: 0;
+  }
+  
+  .images{
+   
+    padding: 0;
+    width: 100%;
+  }
+  .images:hover{
+    transform: scale(1);
+  }
 }
