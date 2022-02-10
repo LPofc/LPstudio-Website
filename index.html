@@ -5,12 +5,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>LPstudio - Photography</title>
 		<link rel="stylesheet"  href="CSS/reset.css">
-		<link rel="stylesheet" type="text/css" href="CSS/index.css">
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
 		<link rel="stylesheet" type="text/css" href="CSS/header.css">
+		<link rel="stylesheet" href="CSS/footer.css">
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@300;700&family=Viga&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@300;700&family=Viga&display=swap" rel="stylesheet">
 
 	</head>
 	<body>
@@ -20,35 +21,45 @@
 				<ul>
 					<li><a href="#Sobre">Sobre</a></li>
 					<li><a href="#Fotos">Fotos</a></li>
-					<li><a href="#Contatos">Contato</a></li>
 				</ul>
 			</nav>
 		</header>
 		<main>
 			<h1>LPstudio</h1>
-			<h3>O mundo resgistrado pelas lentes e pelos olhos de um fotógrafo amador.</h3>
+			<h3 class="Main-Subtitle">O mundo resgistrado pelas lentes e pelos olhos de um fotógrafo amador.</h3>
 		</main>
 		<section class="Sobre" id="Sobre">
 			<h2>Sobre</h2>
-			<p>Meu nome é <strong>Luan Pablo</strong>, e sempre estou em busca de evolução. Sempre na correria que a vida nos e exige, trabalhando em tempo integral na maior empresa de logística da america latina, estudando Frontend, apaixonado produções cinematrográficas em geral.</p>
+			<p class="Sobre-p">Meu nome é <strong>Luan Pablo</strong>, e sempre estou em busca de evolução. Sempre na correria que a vida nos e exige, trabalhando em tempo integral na maior empresa de logística da america latina, estudando Frontend, apaixonado produções cinematrográficas em geral.</p>
 		</section>
 		<section class="gallery" id="Fotos">
 			<h2>Fotos</h2>
 			<img src="ASSETS/johnny1.jpg" alt="Johnny e seu amigo cão na praia em floripa" class="images">
-			<img src="ASSETS/floripa1.jpg" alt="Vista do litaral da praia de floripa" class="images"> 
+			<img src="ASSETS/floripa1.jpg" alt="Vista do litaral da praia de floripa" class="images">
 			<img src="ASSETS/reggae.jpg" alt="Amigo admirando a vista da praia" alt="Norway" class="images">
 			<img src="ASSETS/TRAVEL.png" alt="Eu sobre as pedras na praia de floripa" class="images">
 			<img src="ASSETS/passeio.jpg" alt="Duas turistas conversando e passeando na praia" class="images">
 		</section>
-		<section class="Contato" id="Contatos">
-			<h2>Contatos</h2>
-			<p>Entrem em Conta e siga nas redes sociais</p>
-			<a href="https://www.instagram.com/lpofc/">Instagram</a>
-			<a href="https://www.linkedin.com/in/luan-pablo-silva-5656b11a0/">Linkedin</a>
-			<a href="https://github.com/LPofc">GitHub</a>
-		</section>
 		<footer>
-			<p><strong>Site Portfolio by LUAN PABLO</strong></p>
+			<div class="Waves">
+				<div class="Wave" id="Wave1"></div>
+				<div class="Wave" id="Wave2"></div>
+				<div class="Wave" id="Wave3"></div>
+				<div class="Wave" id="Wave4"></div>
+			</div>
+			<div class="Footer-Content">
+				<h3>LPstudio</h3>
+				<p>Obrigado por visitar meu portfolio</p>
+				<ul class="Socials">
+					<li><a href="https://www.instagram.com/lpofc/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+					<li><a href="https://github.com/LPofc" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+					<li><a href="https://www.linkedin.com/in/luan-pablo-silva-5656b11a0/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+				</ul>
+			</div>
+			<div class="Footer-Copyright">
+				<p><strong>Copyright &copy;2022 LUAN DEV. Designed by <span>Luan Pablo</span> </strong></p>
+			</div>
 		</footer>
+		<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 	</body>
 </html>

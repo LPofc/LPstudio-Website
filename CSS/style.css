@@ -1,23 +1,23 @@
 body{
-	
+
 	font-family: 'IBM Plex Sans Condensed', sans-serif;
 	background: #FAFAFF;
 }
 h1{
-	
+
 	font-family: 'Viga', sans-serif;
 	font-size: 9rem;
 	font-weight: 900;
 	color: #F2E205;
 
 }
-h3{
+.Main-Subtitle{
 
 	font-family: 'Viga', sans-serif;
 	font-size: 2rem;
 	color: #FAFAFF;
 }
-p{
+.Sobre-p{
 
 	font-family: 'IBM Plex Sans Condensed', sans-serif;
 	font-size: 32px;
@@ -35,7 +35,7 @@ main{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	
+
 }
 .Sobre{
 
@@ -59,8 +59,8 @@ main{
 	padding-bottom: 20px;
 	text-align: center;
 	padding: 0 50px;
-  	
-  	
+
+
 }
 .gallery h2{
 
@@ -81,11 +81,6 @@ main{
 
 	transform: scale(1.2);
 }
-footer{
-
-	text-align: center;
-	padding: 10px;
-}
 @media only screen and (min-width: 951px) and (max-width: 1350px){
 	.images{
 
@@ -100,9 +95,9 @@ footer{
     width: 100%;
     padding: 0;
   }
-  
+
   .images{
-   
+
     padding: 0;
     width: 100%;
   }
