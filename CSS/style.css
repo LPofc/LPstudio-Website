@@ -30,11 +30,11 @@ main{
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	padding: 200px;
+	padding: 250px;
 	background-image: url("../ASSETS/aeroporto.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: bottom;
 
 }
 .Sobre{
@@ -43,8 +43,22 @@ main{
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	padding: 70px;
-	background: #121317;
+	padding: 250px;
+	background-image: url(../ASSETS/Luan-perfil.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.Glassmorphism{
+
+	box-sizing: border-box;
+	/* From https://css.glass */
+	background: rgba(37, 36, 36, 0.44);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(13.7px);
+	-webkit-backdrop-filter: blur(13.7px);
+	border: 1px solid rgba(37, 36, 36, 0.09);
 }
 .Sobre h2{
 

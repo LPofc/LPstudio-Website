@@ -5,7 +5,7 @@
 	justify-content: space-between;
 	flex-direction: row;
 	align-items: center;
-	
+
 
 }
 li, a{
@@ -23,4 +23,22 @@ li, a{
 .LogoLP{
 
 	max-width: 5rem;
+}
+header .Socials{
+	margin: 0;
+	list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .Socials li a{
+  text-decoration: none;
+  color: #FAFAFF;
+  font-size: 2em;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+header .Socials li a:hover{
+  transform: translateY(-15px);
 }
